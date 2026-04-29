@@ -82,7 +82,7 @@ Results are stored in `all_bags_data[bag_stem]` as `{'scans': [...], 'odom': [..
 
 The very first scan from each bag, coloured by Euclidean distance from the sensor origin.
 
-![Single LiDAR Scan](generated/plot_A_single_scan.png)
+![Single LiDAR Scan](lidar_visualizations/plot_A_single_scan.png)
 
 ---
 
@@ -104,7 +104,7 @@ A grid of 5 cm × 5 cm cells is built by binning all LiDAR returns. Hit counts a
 
 Each recording's robot path is drawn as a `LineCollection` coloured cyan→magenta by normalised time, with path length annotated in the title.
 
-![Odometry Trajectory](generated/plot_D_odom_trajectory.png)
+![Odometry Trajectory](lidar_visualizations/plot_D_odom_trajectory.png)
 
 | Bag | Path length |
 |-----|-------------|
@@ -118,7 +118,7 @@ Each recording's robot path is drawn as a `LineCollection` coloured cyan→magen
 
 For each recording: median range and P10–P90 band over time (left), plus the full range histogram with median annotated (right).
 
-![LiDAR Scan Statistics](generated/plot_E_scan_stats.png)
+![LiDAR Scan Statistics](lidar_visualizations/plot_E_scan_stats.png)
 
 | Bag | Median range |
 |-----|-------------|
@@ -134,15 +134,15 @@ Each bag produces a GIF showing up to 60 keyframes. A ghost trail of the 8 most 
 
 **labtest-v1_0** (299 scans, ~60 s)
 
-![Animation v1_0](generated/anim_labtest-v1_0.gif)
+![Animation v1_0](lidar_visualizations/anim_labtest-v1_0.gif)
 
 **labtest-v1_1** (299 scans, ~60 s)
 
-![Animation v1_1](generated/anim_labtest-v1_1.gif)
+![Animation v1_1](lidar_visualizations/anim_labtest-v1_1.gif)
 
 **labtest-v1_2** (134 scans, ~27 s)
 
-![Animation v1_2](generated/anim_labtest-v1_2.gif)
+![Animation v1_2](lidar_visualizations/anim_labtest-v1_2.gif)
 
 ---
 
@@ -150,7 +150,7 @@ Each bag produces a GIF showing up to 60 keyframes. A ghost trail of the 8 most 
 
 All three recordings drawn in the same coordinate frame (blue / orange / green), letting you compare coverage and robot paths at a glance.
 
-![All bags overlaid](generated/plot_G_comparison.png)
+![All bags overlaid](lidar_visualizations/plot_G_comparison.png)
 
 ---
 
